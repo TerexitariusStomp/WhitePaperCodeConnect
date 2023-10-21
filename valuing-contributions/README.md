@@ -1,3 +1,7 @@
 # Valuing Contributions
 
-Once a time has elapsed for the contributors to each add their wallet addresses, a vote occurs. This vote determines how many tokens, called slices, are distributed to each contributor. The vote is only able to be voted upon by the contributors with registered wallet addresses. After the vote occurs, the slices are sent to each contributor of the repository from the Safe.&#x20;
+The distribute command creates a snapshot vote for the contributor's request. Contributors holding slices then vote on each contributor's percentage of contribution on the Snapshot. After finalizing the results, the person that pushed the MTE repo, merges the awarded slices on the Github repository using a command. The merge command is sent to the Safe for transaction confirmation and slices are distributed to contributors based on the finalized results.
+
+In the future UMA’s oSnap Protocol would be integrated here to automate the slice token distribution after the Snapshots vote finalizes. However UMA’s oSnap is not on Base network yet.
+
+\
